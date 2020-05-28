@@ -1,0 +1,7 @@
+{
+    "defaultCommandTimeout": 10000,
+    "video": false,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "chromeWebSecurity": false
+}

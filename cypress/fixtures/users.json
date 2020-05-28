@@ -1,0 +1,74 @@
+{
+  "student": {
+    "grant_type": "credentials",
+    "email": "student.estrategia@gmail.com",
+    "password": "123456Aa",
+    "notebook": {
+      "title": "Caderno"
+    }
+  },
+
+   
+  "acc_user": {
+    "email": "henrique.manieri@hotmail.com",
+    "password": "12345"
+  },
+  
+  "bo_admin": {
+    "email": "admin@estrategia.io",
+    "password": "password",
+    "permission": {
+      "groups": [{ "id": "dac04f36-1f79-47a4-9594-44a4a94944ad", "name": "Cadastrador Questões", "permissions": [{ "id": "questions.create_exam", "context": "questions", "attributes": {} }, { "id": "questions.read_exam", "context": "questions", "attributes": {} }, { "id": "questions.update_exam", "context": "questions", "attributes": {} }, { "id": "questions.delete_exam", "context": "questions", "attributes": {} }, { "id": "questions.create_question", "context": "questions", "attributes": {} }, { "id": "questions.read_question", "context": "questions", "attributes": {} }, { "id": "questions.update_question", "context": "questions", "attributes": {} }, { "id": "questions.attach_exam_to_question", "context": "questions", "attributes": {} }, { "id": "questions.detach_exam_from_question", "context": "questions", "attributes": {} }, { "id": "questions.attach_topic_to_question", "context": "questions", "attributes": {} }, { "id": "questions.detach_topic_from_question", "context": "questions", "attributes": {} }, { "id": "questions.create_alternative", "context": "questions", "attributes": {} }, { "id": "questions.read_alternative", "context": "questions", "attributes": {} }, { "id": "questions.update_alternative", "context": "questions", "attributes": {} }, { "id": "questions.delete_alternative", "context": "questions", "attributes": {} }, { "id": "questions.read_topic", "context": "questions", "attributes": {} }, { "id": "questions.read_solution", "context": "questions", "attributes": {} }, { "id": "catalogs.read_catalog", "context": "catalogs", "attributes": {} }] }]
+    }
+  },
+  "bo_teacher": {
+    "email": "professor.estrategia@gmail.com",
+    "password": "password",
+    "permission": {
+      "groups":[{ "id":"f057f44e-d872-4edf-ae90-97a8927ee044","name":"Professor Questões","permissions":[{"id":"questions.read_exam","context":"questions","attributes":{}},{"id":"questions.read_question","context":"questions","attributes":{}},{"id":"questions.update_question","context":"questions","attributes":{}},{"id":"questions.attach_topic_to_question","context":"questions","attributes":{}},{"id":"questions.detach_topic_from_question","context":"questions","attributes":{}},{"id":"questions.create_alternative","context":"questions","attributes":{}},{"id":"questions.read_alternative","context":"questions","attributes":{}},{"id":"questions.update_alternative","context":"questions","attributes":{}},{"id":"questions.delete_alternative","context":"questions","attributes":{}},{"id":"questions.read_topic","context":"questions","attributes":{}},{"id":"questions.create_solution","context":"questions","attributes":{}},{"id":"questions.read_solution","context":"questions","attributes":{}},{"id":"questions.update_solution","context":"questions","attributes":{}},{"id":"questions.delete_solution","context":"questions","attributes":{}},{"id":"catalogs.read_catalog","context":"catalogs","attributes":{}},{"id":"ldi.my_tree","context":"ldi","attributes":{}}]}]
+    }
+  },
+  "bo_moderator": {
+    "email": "moderador.estrategia@gmail.com",
+    "password": "password",
+    "permission": {
+      "groups": [{ "id": "45153527-e537-4367-8442-053668a8cc78", "name": "Admin Questões", "permissions":[{"id":"questions.create_exam","context":"questions","attributes":{}},{"id":"questions.read_exam","context":"questions","attributes":{}},{"id":"questions.update_exam","context":"questions","attributes":{}},{"id":"questions.delete_exam","context":"questions","attributes":{}},{"id":"questions.create_question","context":"questions","attributes":{}},{"id":"questions.read_question","context":"questions","attributes":{}},{"id":"questions.update_question","context":"questions","attributes":{}},{"id":"questions.delete_question","context":"questions","attributes":{}},{"id":"questions.attach_exam_to_question","context":"questions","attributes":{}},{"id":"questions.detach_exam_from_question","context":"questions","attributes":{}},{"id":"questions.attach_topic_to_question","context":"questions","attributes":{}},{"id":"questions.detach_topic_from_question","context":"questions","attributes":{}},{"id":"questions.create_alternative","context":"questions","attributes":{}},{"id":"questions.read_alternative","context":"questions","attributes":{}},{"id":"questions.update_alternative","context":"questions","attributes":{}},{"id":"questions.delete_alternative","context":"questions","attributes":{}},{"id":"questions.create_topic","context":"questions","attributes":{}},{"id":"questions.read_topic","context":"questions","attributes":{}},{"id":"questions.update_topic","context":"questions","attributes":{}},{"id":"questions.delete_topic","context":"questions","attributes":{}},{"id":"questions.create_solution","context":"questions","attributes":{}},{"id":"questions.read_solution","context":"questions","attributes":{}},{"id":"questions.update_solution","context":"questions","attributes":{}},{"id":"questions.delete_solution","context":"questions","attributes":{}},{"id":"catalogs.create_catalog","context":"catalogs","attributes":{}},{"id":"catalogs.read_catalog","context":"catalogs","attributes":{}},{"id":"catalogs.update_catalog","context":"catalogs","attributes":{}},{"id":"catalogs.delete_catalog","context":"catalogs","attributes":{}}]}]
+    }
+  },
+  "exam": {
+    "institution": "BB - Banco do Brasil",
+    "organizer": "AVR",
+    "area": "Bancária",
+    "office": "Secretário",
+    "formation": "Nível superior",
+    "year": "2010",
+    "formation_area": "Química",
+    "type": "Edital",
+    "title": "BB Tecnologia e Serviços CESPE (CEBRASPE) Assistente Técnico (BBTS) 2003 1"
+  },
+  "question": {
+    "subject": "CLT",
+    "organizer": "AVR",
+    "institution": "BB - Banco do Brasil",
+    "area": "Financeira",
+    "office": "Médico (ME)",
+    "formation": "Nível superior",
+    "year": "2012",
+    "formation_area": "Física",
+    "title": "Enunciado teste para a questão Lorem Ipsum",
+    "alternative_1": "Primeira alternativa",
+    "alternative_2": "Segunda alternativa"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
