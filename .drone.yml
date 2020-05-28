@@ -6,5 +6,7 @@ steps:
   image: node
   commands:
   - npm install
+  - npm audit fix
+  - npm install --save-dev cypress@4.7.0
   - npx cypress open
   - npx cypress run
