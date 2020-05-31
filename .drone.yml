@@ -25,4 +25,4 @@ steps:
 #   # cache NPM modules and Cypress binary
 #   - name: cache
 #     host:
-#       path: ~/.npm
+#       path: ~/.np
