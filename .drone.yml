@@ -3,10 +3,7 @@ name: default
 
 steps:
 - name: test
-  image: node
+  image: cypress
   commands:
-  - npm install
-  - npm audit fix
-  - npm install --save-dev cypress@4.7.0
-  - npx cypress open
-  - npx cypress run
+  - npm ci
+  - npm run cypress:run -- --record
